@@ -1,4 +1,6 @@
-# Hi, I'm Banpreet. Welcome to my GitHub.io Standin Site!
+# Introduction & Education 
+
+## Hi, I'm Banpreet. Welcome to my GitHub Standin Site!
 
 I'm currently a 4th Year Computing Science student at SFU. I also have a diploma in Electrical and Computer Engineering Technology specializing in Power Systems and Industrial Controls! As I continue my programming journey I hope I can update this domain to look better, but until then It's just a template. 
 
