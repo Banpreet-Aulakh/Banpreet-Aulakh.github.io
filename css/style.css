@@ -1,0 +1,102 @@
+
+body {
+  background-color: #0c1c2c;
+  color: #f2e9e4;
+}
+
+header {
+  background-color: rgba(26, 31, 43, 0.5);
+  color: #f2e9e4;
+  text-align: center;
+  background-image: url(../images/night-sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+  color: #f2e9e4;
+  text-decoration: none;
+  padding: 14px 25px;
+}
+
+nav a:hover {
+  color: #f2e9e4;
+  background-color: #3d5a80;
+  border-radius: 20px;
+}
+
+main {
+  background-color: rgba(26, 31, 43, 0.5);
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgba(26, 31, 43, 0.5);
+  color: #f2e9e4;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.socials img {
+    filter: invert(100%) sepia(100%) saturate(750%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    width: 32px;
+    height: 32px;
+    margin: 20px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .socials img {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .socials {
+    flex-direction: column;
+  }
+}
+
+
+
+
