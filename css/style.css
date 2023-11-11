@@ -8,10 +8,6 @@ header {
   background-color: rgba(26, 31, 43, 0.5);
   color: #f2e9e4;
   text-align: center;
-  background-image: url(../images/night-sky.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 10px;
   border-radius: 20px;
 
@@ -95,6 +91,8 @@ footer p {
   margin-right: 10px;
 }
 
+
+
 .first-name {
   font-weight: 700;
 }
@@ -118,6 +116,31 @@ footer p {
     height: 32px;
     margin: 20px;
 }
+
+
+#projects button {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 0 auto;
+  background: none;
+  border: none;
+  color: #f2e9e4;
+  font-size: 1.0em;
+  width: 100%;
+  padding: 10px; 
+  cursor: pointer; 
+  font-family: "Space Mono", monospace, sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#projects button:hover {
+  color: #f2e9e4;
+  background-color: rgba(221, 128, 41, 0.5);
+  border-radius: 20px;
+}
+
 
 #projects img {
   width: 100px;
