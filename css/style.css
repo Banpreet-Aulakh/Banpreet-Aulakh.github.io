@@ -87,10 +87,13 @@ nav a:hover {
 
 
 footer {
-  background-color: rgba(26, 31, 43, 0.5);
-  color: #f2e9e4;
+  text-align: right;
 }
 
+footer p {
+  font-size: 0.8em;
+  margin-right: 10px;
+}
 
 .first-name {
   font-weight: 700;
