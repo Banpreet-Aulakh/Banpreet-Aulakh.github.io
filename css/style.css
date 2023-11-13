@@ -67,6 +67,7 @@ nav ul {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 nav a {
@@ -117,6 +118,12 @@ footer p {
     margin: 20px;
 }
 
+.no-touch-device #projects button:hover {
+  color: #f2e9e4;
+  background-color: rgba(221, 128, 41, 0.5);
+  border-radius: 20px;
+}
+
 
 #projects button {
   display: flex;
@@ -135,12 +142,9 @@ footer p {
   font-weight: 200;
 }
 
-#projects button:hover {
-  color: #f2e9e4;
-  background-color: rgba(221, 128, 41, 0.5);
-  border-radius: 20px;
+#projects button span {
+  transition: transform 0.3s ease-in-out;
 }
-
 
 #projects img {
   width: 100px;
@@ -212,8 +216,16 @@ footer p {
     padding: 0;
     margin: 0;
   }
-
 }
+
+@media (hover: hover) and (pointer: fine) {
+  #projects button:hover {
+    color: #f2e9e4;
+    background-color: rgba(221, 128, 41, 0.5);
+    border-radius: 20px;
+  }
+}
+
 
 
 
