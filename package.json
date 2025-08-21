@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Banpreet Aulakh's React Portfolio Site",
   "type": "module",
-  "homepage": "https://banpreet-aulakh.github.io/Banpreet-Aulakh.github.io",
+  "homepage": "https://banpreet-aulakh.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
