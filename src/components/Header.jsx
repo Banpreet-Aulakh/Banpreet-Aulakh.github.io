@@ -58,7 +58,7 @@ const Header = () => {
       </nav>
       <div className="socials">
         <a 
-          href="https://www.linkedin.com/in/banpreetaulakh/" 
+          href="https://www.linkedin.com/in/banpreet/" 
           target="_blank" 
           rel="noopener noreferrer"
         >
